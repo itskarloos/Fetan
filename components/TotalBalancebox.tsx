@@ -1,5 +1,5 @@
 import React from "react";
-
+import {formatAmount} from "@/lib/utils"
 const TotalBalancebox = ({
   accounts = [],
   totalBanks,
